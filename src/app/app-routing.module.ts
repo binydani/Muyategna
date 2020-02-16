@@ -14,7 +14,21 @@ const routes: Routes = [
   {
     path: 'list',
     loadChildren: () => import('./list/list.module').then(m => m.ListPageModule)
+  },
+  {
+    path: 'detail-category',
+    loadChildren: () => import('./detail-category/detail-category.module').then( m => m.DetailCategoryPageModule)
+  },
+  {
+    path: 'profile',
+    loadChildren: () => import('./profile/profile.module').then( m => m.ProfilePageModule)
+  },
+  {
+    path: 'register-providers',
+    loadChildren: () => import('./register-providers/register-providers.module').then( m => m.RegisterProvidersPageModule)
   }
+
+
 ];
 
 @NgModule({

@@ -18,8 +18,23 @@ export class AppComponent {
     },
     {
       title: 'Register',
-      url: '/list',
-      icon: 'list'
+      url: '/register-providers',
+      icon: 'register'
+    },
+    {
+      title: 'Category',
+      url: '/home',
+      icon: 'home'
+    },
+    {
+      title: 'Profile',
+      url: '/profile',
+      icon: 'profile'
+    },
+    {
+      title: 'Admin',
+      url: '/profile',
+      icon: 'profile'
     }
   ];
 
